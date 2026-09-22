@@ -16,7 +16,7 @@ const Navbar = () => {
         atoken && setAtoken('')
         atoken && localStorage.removeItem('atoken')
         dToken && setDToken('')
-        dToken && localStorage.removeItem('dToken')
+        dToken && localStorage.removeItem('dtoken')
     }
   return (
     <div className='flex justify-between items-center px-4 sm:px-10 py-3 border-b bg-white'>
